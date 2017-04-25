@@ -1,11 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Test Page: Don't Panic</title>
     <meta charset="utf-8">
-    <title>Test page</title>
     <style>
-    div {
+      li {
+        border: 2px solid black;
+      }
+      a {
+        color: blue;
+      }
+      div {
         border: 1px solid black;
+      }
+      div a {
+        color: green;
+      }
+      #excercise { border: 3px solid green;
+      }
+      .boxcol { background-color: lightgray;
+      }
+      .boxborder { background-color: yellow;
       }
     </style>
   </head>
@@ -13,27 +28,27 @@
     <h1>I'm an h1</h1>
     <ul>
       <li>
-        <a href="http://example.com/" style="color: red;">Link</a>
+        <a href="http://example.com/">Link</a>
       </li>
       <li>
-        <a href="http://example.com/" style="color: red;">Link</a>
+        <a href="http://example.com/">Link</a>
       </li>
       <li>
-        <a href="http://example.com/" style="color: red;">Link</a>
+        <a href="http://example.com/">Link</a>
       </li>
     </ul>
     <h2>I'm an h2</h2>
     <div>
-      <ahref="http://example.com/" style="color: green;">I'm a link</a>
+      <a href="http://example.com/">I'm a link</a>
     </div>
-    <div>
-      <a href="http://example.com/" style="color: green;">I'm a link</a>
+    <div class="boxcol">
+      <a href="http://example.com/">I'm a link</a>
     </div>
-    <div>
-      <a href="http://example.com/" style="color: green;">I'm a link</a>
+    <div id="excercise" class="boxborder">
+      <a href="http://example.com/">I'm a link</a>
     </div>
-    <div>
-      <a href="http://example.com/" style="color: green;">I'm a link</a>
+    <div class="boxcol">
+      <a href="http://example.com/">I'm a link</a>
     </div>
   </body>
 </html>
